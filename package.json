@@ -19,8 +19,11 @@
   "bugs": {
     "url": "https://github.com/nyusaf/dragqueen/issues"
   },
-  "homepage": "https://github.com/nyusaf/dragqueen#readme",
-  "dependencies": {
+  "readmeFilename": "README.md",
+  "devDependencies": {
     "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
   }
 }
