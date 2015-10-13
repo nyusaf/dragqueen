@@ -1,14 +1,29 @@
-/*global define, console */
+/*global define, console, require, module */
 
 /*
  * DragQueen - a drag and drop library
  */
 
-define([
-  'jquery'
-],
+ /*
+  Module Definition pattern from UMD
+  https://github.com/umdjs/umd
+  */
+(function (root, factory) {
+  'use strict';
+  if (typeof define === 'function' && define.amd) {
+    // AMD. Register as an anonymous module.
+    define(['jquery'], factory);
+  } else if (typeof module === 'object' && module.exports) {
+    // only CommonJS-like environments that support module.exports,
+    // like Node and Browserify
+    var jquery = require('jquery');
+    module.exports = factory(jquery);
+  } else {
+    // Browser globals (root is window)
+    root.Viewmaster = factory();
+  }
+}(this, function ($) {
 
-function ($) {
   'use strict';
 
   function DragQueen (opts) {
@@ -212,4 +227,5 @@ function ($) {
   };
 
   return DragQueen;
-});
+
+})); // umd
