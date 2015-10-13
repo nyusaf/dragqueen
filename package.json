@@ -1,0 +1,26 @@
+{
+  "name": "dragqueen",
+  "version": "0.0.1",
+  "description": "HTML5 drag and drop facilitator",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyusaf/dragqueen.git"
+  },
+  "keywords": [
+    "dragdrop",
+    "html5"
+  ],
+  "author": "Nabila Yusaf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nyusaf/dragqueen/issues"
+  },
+  "homepage": "https://github.com/nyusaf/dragqueen#readme",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  }
+}
