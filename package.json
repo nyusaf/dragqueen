@@ -1,6 +1,6 @@
 {
   "name": "dragqueen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HTML5 drag and drop facilitator",
   "main": "index.js",
   "scripts": {
