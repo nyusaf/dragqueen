@@ -1,0 +1,26 @@
+{
+  "name": "dragqueen",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nyusaf/dragqueen",
+  "authors": [
+    "Nabila Yusaf <nabilayusaf@gmail.com>"
+  ],
+  "description": "HTML5 drag and drop facilitator",
+  "main": "src/index.js",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "dragdrop",
+    "html5"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
